@@ -9,6 +9,10 @@ export default defineNuxtConfig({
     '@vueuse/nuxt'
   ],
 
+  app: {
+    baseURL: '/sub'
+  },
+
   ui: {
     safelistColors: ['primary', 'red', 'orange', 'green']
   },
